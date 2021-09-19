@@ -1,4 +1,15 @@
 
+// command to run a cpp file with thread inside it
+// we need to specify a version >= 11 of c++
+
+g++ -std=c++11 -pthread main.cpp
+
+// then 
+
+./a.out
+
+
+
 ///////////////Basic thread and join with main thread //////
 #include <iostream>
 #include <thread>
